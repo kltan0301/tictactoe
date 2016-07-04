@@ -1,0 +1,44 @@
+body {
+  background: gray;
+}
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+}
+button {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 30px;
+  background: none;
+  border: 2px solid black;
+  margin: 30px;
+}
+button:hover {
+  background: black;
+  color: white;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+.selection_section {
+  text-align: center;
+}
+.board {
+  height: 460px;
+  width: 460px;
+  margin: 50px auto;
+}
+.square {
+  height: 150px;
+  width: 150px;
+  margin: -2px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  background-size: cover;
+}
+.squareRight {
+  border-right: 4px solid white;
+}
+.squareBottom {
+  border-bottom: 4px solid white;
+}
