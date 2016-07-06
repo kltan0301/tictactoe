@@ -4,26 +4,29 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css">
   <title>Tic Tac Toe Game</title>
 </head>
 
 <body>
-  <div class="selection_section">
+  <div class="selection_section sections">
     <button type="button" name="button" id="resetButton">Reset Button</button>
     <h1>Player's Turn</h1>
   </div>
 
-  <div class="board">
-    <div id="square1" class="square squareRight squareBottom"></div>
-    <div id="square2" class="square squareRight squareBottom"></div>
-    <div id="square3" class="square squareBottom"></div>
-    <div id="square4" class="square squareRight squareBottom"></div>
-    <div id="square5" class="square squareRight squareBottom"></div>
-    <div id="square6" class="square squareBottom"></div>
-    <div id="square7" class="square squareRight"></div>
-    <div id="square8" class="square squareRight"></div>
-    <div id="square9" class="square"></div>
+  <div class="sections board_section">
+    <div class="board">
+      <div id="square1" class="square squareRight squareBottom"></div>
+      <div id="square2" class="square squareRight squareBottom"></div>
+      <div id="square3" class="square squareBottom"></div>
+      <div id="square4" class="square squareRight squareBottom"></div>
+      <div id="square5" class="square squareRight squareBottom"></div>
+      <div id="square6" class="square squareBottom"></div>
+      <div id="square7" class="square squareRight"></div>
+      <div id="square8" class="square squareRight"></div>
+      <div id="square9" class="square"></div>
+    </div>
   </div>
 
   <script type="text/javascript" src="scripts/boardScript.js">
